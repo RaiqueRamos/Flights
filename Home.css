@@ -1,0 +1,963 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ecf1f4;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #858585;
+    border-radius: 999px;
+}
+header{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Big{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    bottom: 24px;
+}
+#container{
+    width: 1300px;
+    height: 861px;
+    position: absolute;
+    top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+#mainInfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#NavBar{
+    width: 240px;
+    height: 709px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #0076FF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxLM{
+    width: 100%;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Brand-Logo{
+    width: 70px;
+}
+#Menu{
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+}
+#span-nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+#mainContainer{
+    width: 1000px;
+    height: 1616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Mainprofile{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+#BoxBaP{
+    width: 186px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 21px;
+    border-radius: 180px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    background: rgba(108, 134, 177, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#H4BoxBaP{
+    color: #fff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#addHouse{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 999px;
+    cursor: pointer;
+}
+#addHouseImg{
+    width: 19px;
+    height: 19px;
+}
+#BoxProfile{
+    width: 186px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(33, 6, 95);
+    background: rgba(108, 134, 177, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 180px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#Info{
+    width: 1000px;
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoxUp{
+    width: 1000px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoxMainUp{
+    width: 1000px;
+    height: 73px;
+}
+#BoxUpInfos{
+    width: 295px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoxFlights{
+    width: 68px;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#BoxFlights:hover{
+    background-color: #499BFB;
+}
+#BoxHotel{
+    width: 68px;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#BoxHotel:hover{
+    background-color: #499BFB;
+}
+#BoxVilla{
+    width: 68px;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    border-radius: 8px;
+}
+#BoxVilla:hover{
+    background-color: #499BFB;
+}
+#BoxTaxi{
+    width: 68px;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    border-radius: 8px;
+}
+#BoxTaxi:hover{
+    background-color: #499BFB;
+}
+#BoxMainDown{
+    width: 1000px;
+    height: 321px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+#BoxCenterDown{
+    width: 922px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+#BoxCenter1{
+    width: 922px;
+    height: 37px;
+}
+#BoxORM{
+    width: 320px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoxOneway{
+    width: 100px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F2F6;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    color: #353F65;
+    border-radius: 17.5px;
+}
+#BoxRoundTrip{
+    width: 100px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F2F6;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    color: #353F65;
+    border-radius: 17.5px;
+}
+#BoxMulty{
+    width: 100px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F2F6;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    color: #353F65;
+    border-radius: 17.5px;
+}
+#BoxCenter2{
+    width: 922px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoxForm{
+    width: 328px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(124, 130, 155, 0.05);
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+}
+#BoxFormTxt{
+    width: 172px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+#BoxImgForm{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+#BoxFormTxt, h4{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+    position: relative;
+}
+#h4Form{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+    position: relative;
+    left: 10px;
+}
+#BoxTo{
+    width: 328px;
+    height: 88px;
+    border-radius: 8px;
+    background: rgba(124, 130, 155, 0.05);
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+#BoxToTxt{
+    width: 172px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+#BoxToTxt, h4{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+}
+#BoxClass{
+    width: 229px;
+    height: 88px;
+    border-radius: 8px;
+    background: rgba(148, 152, 168, 0.05);
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+#BoxClassTxt{
+    width: 172px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+#BoxClassTxt, h4{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+}
+#BoxCenter3{
+    width: 922px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+#BoxDeparture{
+    width: 248px;
+    height: 88px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background: rgba(124, 130, 155, 0.05);
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+}
+#BoxDepartureTxt{
+    width: 172px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+#BoxDepartureTxt, h4{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+}
+#BoxReturn{
+    width: 248px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(124, 130, 155, 0.05);
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+}
+#BoxReturnTxt{
+    width: 172px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+#BoxReturnTxt, h4{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+}
+#BoxReturn2{
+    width: 140px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(124, 130, 155, 0.05);
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+}
+#BoxReturn2Txt{
+    width: 172px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+#BoxReturn2Txt, h4{
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    color: #475073;
+}
+#BtnCenter3{
+    width: 224px;
+    height: 88px;
+    border-radius: 7px;
+    border: none;
+    background-color: #DF142D;
+    font-size: 13px;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#BoxNav{
+    width: 210px;
+    height: 653px;
+}
+#BoxOpcoes{
+    width: 100%;
+    height: 250px;
+}
+#BoxHome{
+    width: 170px;
+    height: 42px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+#BoxHomeInfos{
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 74px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    
+}
+#BoxHome:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxWallet{
+    width: 170px;
+    height: 42px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+#BoxWalletInfos{
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 74px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#BoxWallet:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxBooking{
+    width: 170px;
+    height: 42px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+#BoxBookingInfos{
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#BoxBooking:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxBusiness{
+    width: 170px;
+    height: 42px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+#BoxBusinessInfos{
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#BoxBusiness:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxExplore{
+    width: 170px;
+    height: 42px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+#BoxExploreInfos{
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#BoxExplore:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxSupport{
+    width: 170px;
+    height: 42px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+#BoxSupportInfos{
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+#BoxSupport:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxGet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 259px;
+}
+#BoxPremiun{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    height: 45px;
+    border-radius: 180px;
+}
+#Ball3{
+    width: 20px;
+}
+#DownBox{
+    width: 1000px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#DownBoxInfosTxt{
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+#h6DownTxt{
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+#DownBoxMain{
+    width: 1446px;
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+    overflow: visible;
+
+}
+#BoxCityTuch{
+    width: 462px;
+    height: 188px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 32px;
+}
+#BoxCityTuchMain{
+    width: 410px;
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoxCityTuchImg{
+    width: 110px;
+    height: 100%;
+}
+#BoxCityTuchTxt{
+    width: 269px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#BoxCityTuchTitle{
+    width: 186px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+#BoxCityTuchCuponBtn{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#CityTuchImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+#BoxCityTuch2{
+    width: 462px;
+    height: 188px;
+    background-color: #DF142D;
+}
+#PUpInfos{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#BoxCityTuchBtn{
+    width: 98px;
+    height: 32px;
+    background: rgba(223, 20, 45, 0.06);
+    border-radius: 180px;
+    border: none;
+    color: #DF142D;
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+p{
+    font-family: 'Open sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #6C738F;
+}
+#BoxBestOffer{
+    height: 1106px;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center; 
+}
+#BoxBestOfferMain{
+    width: 896px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#BoxBestOfferTxt{
+    width: 100%;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #282E44;
+    font-weight: 900;
+    margin-top: 30px;
+
+}
+#PBoxBestOffer{
+    color: #282E44;
+    font-weight: 900;
+    font-size: 24px;
+}
+#BoxBestOfferOfertas{
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+#BoxVia{
+    width: 100%;
+    height: 76.38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+#BoxViaMunbai{
+    width: 100%;
+    height: 76.38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#BoxViaTxt{
+    width: 317px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#BoxH3{
+    width: 37px;
+    height: 16px;
+}
+#BoxDates{
+    width: 121px;
+    height: 16px;
+}
+#BoxViaBtn{
+    width: 152px;
+    height: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    color: #282E44;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 180px;
+}
+#ViaSpan{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #282E44;
+}
+#ViaP{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #A2A8BF;
+}
+#ViaH3{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #282E44;
+}
+#ViaDates{
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-family: 700;
+    color: #282E44;
+}
+#BoxViaImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BoxTxtViaP{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#BoxBookYourPerfectDeals{
+    width: 1000px;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFC54D;
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+#BYP{
+    font-family: 'Open sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+#Value{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+    color: #DF142D;
+}
+#PValue{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #E12819;
+}
+#AV{
+    width: 434px;
+    height: 100%;
+}
+#BoxBYPDBtn{
+    width: 138px;
+    height: 54px;
+    background-color: #ffcb61;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+}
+#DownBoxInfosTxtP{
+    color: #282E44;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+#BoxMedal{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(214.51deg, #D10015 13.77%, #FF4369 83.58%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#BoxPremiunMedalImg{
+    rotate: -90deg;
+    width: 18px;
+    height: 18px;
+}
+#BoxPremiunTxt{
+    width: 80px;
+    height: 26px;
+    right: 5px;
+    position: relative;
+}
+#PPremiun{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 800;
+    font-size: 11px;
+    color: #0B1023;
+}
