@@ -9,10 +9,11 @@ body{
 }
 ::-webkit-scrollbar{
     width: 6px;
-    background-color: #ffffff;
+    height: 6px;
+    background-color: #ecf1f4;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #858585;
+    background-color: #616161;
     border-radius: 999px;
 }
 header{
@@ -22,11 +23,10 @@ header{
     align-items: center;
     flex-direction: column;
 }
-#Big{
+#Box{
     width: 100%;
-    height: 60%;
-    position: relative;
-    bottom: 24px;
+    height: 396px;
+    background-color: #000096;
 }
 #container{
     width: 1300px;
@@ -52,7 +52,7 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    background: #0076FF;
+    background: #0918EC;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxLM{
@@ -179,7 +179,8 @@ header{
     border-radius: 8px;
 }
 #BoxFlights:hover{
-    background-color: #499BFB;
+    background-color: #0918EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxHotel{
     width: 68px;
@@ -196,7 +197,8 @@ header{
     border-radius: 8px;
 }
 #BoxHotel:hover{
-    background-color: #499BFB;
+    background-color: #0918EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxVilla{
     width: 68px;
@@ -213,7 +215,8 @@ header{
     border-radius: 8px;
 }
 #BoxVilla:hover{
-    background-color: #499BFB;
+    background-color: #0918EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxTaxi{
     width: 68px;
@@ -230,7 +233,8 @@ header{
     border-radius: 8px;
 }
 #BoxTaxi:hover{
-    background-color: #499BFB;
+    background-color: #0918EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxMainDown{
     width: 1000px;
@@ -517,7 +521,7 @@ header{
     
 }
 #BoxHome:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #05298A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxWallet{
@@ -539,7 +543,7 @@ header{
     color: #fff;
 }
 #BoxWallet:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #05298A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxBooking{
@@ -561,7 +565,7 @@ header{
     color: #fff;
 }
 #BoxBooking:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #05298A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxBusiness{
@@ -583,7 +587,7 @@ header{
     color: #fff;
 }
 #BoxBusiness:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #05298A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxExplore{
@@ -605,7 +609,7 @@ header{
     color: #fff;
 }
 #BoxExplore:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #05298A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxSupport{
@@ -627,7 +631,7 @@ header{
     color: #fff;
 }
 #BoxSupport:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #05298A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BoxGet{
@@ -669,8 +673,8 @@ header{
 }
 #h6DownTxt{
     font-family: 'Open sans', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     margin-right: 40px;
 }
 #DownBoxMain{
@@ -745,6 +749,8 @@ header{
     font-size: 11px;
     font-weight: 800;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    text-decoration: none;
 }
 #BoxCityTuchBtn{
     width: 98px;
@@ -960,4 +966,14 @@ p{
     font-weight: 800;
     font-size: 11px;
     color: #0B1023;
+}
+#Modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
 }
